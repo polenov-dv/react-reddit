@@ -1,0 +1,38 @@
+[
+	{
+		"image_src": "assets/images/dog.webp",
+		"title": "Francis",
+		"description": "Thoughts on Francis (aka rejected Secret Life of Pets character)?",
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "anDog"
+		}
+	},
+	{
+		"image_src": "assets/images/parrot.jpg",
+		"title": "Little Parrot",
+		"description": "When someone says the dogs are the best pets so you hit him with the budgie stare (is my budgie female or male)",
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "anParrot"
+		}
+	},
+	{
+		"image_src": "assets/images/rabbit.webp",
+		"title": "Clyde's",
+		"description": "King Clyde's 3rd Birthday. He requests treats and pets",
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "anRabbit"
+		}
+	},
+	{
+		"image_src": "assets/images/rat.jpg",
+		"title": "Rat",
+		"description": "Hello rat owners! I'm doing a TED talk for my class in high school about how common misinformation about small pet animals can harm them. Does anyone have any good information that I can use? (Dietary needs, enclosure needs, handling them, veterinary needs, etc.)(Also note that this is not my rat)",
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "anRat"
+		}
+	}
+]

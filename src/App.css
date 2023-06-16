@@ -1,0 +1,17 @@
+:root {
+	--border-radius: 10px;
+	--primary-color: rgb(0, 120, 210);
+	--light-grey: rgb(240, 240, 240);
+}
+
+body {
+	background-color: #dae0e6;
+}
+
+.hoverable:hover {
+	cursor: pointer;
+}
+
+.spacer {
+	flex: 1;
+}

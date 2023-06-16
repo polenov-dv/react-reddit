@@ -1,0 +1,140 @@
+.main-bar {
+	flex: 0.65;
+}
+
+.main-bar .update-cart .top-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-bar .update-cart {
+	background-color: white;
+	padding: 15px;
+	border-radius: var(--border-radius);
+	border: 1px solid rgb(200, 200, 200);
+	margin-top: 15px;
+}
+
+.main-bar .update-cart .top-section span {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.main-bar .update-cart .top-section img {
+	width: 18px;
+	height: 18px;
+}
+
+.main-bar .update-cart .top-section img:hover {
+	background-color: rgb(200, 200, 200);
+	border-radius: 50%;
+}
+
+.main-bar .update-cart .content-section {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 20px;
+	padding: 15px;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: var(--border-radius);
+	margin-bottom: 0px;
+}
+
+.main-bar .update-cart .content-section:hover {
+	border: 1px solid rgb(150, 150, 150);
+}
+
+.main-bar .update-cart .content-section .content-top .title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.main-bar .update-cart .content-section .content-top .description {
+	font-size: 14px;
+	color: rgb(100, 100, 100);
+}
+
+.main-bar .update-cart .content-section img {
+	min-width: 52px;
+	min-height: 52px;
+	max-width: 52px;
+	max-height: 52px;
+	margin-right: 15px;
+}
+
+.main-bar .filter-container {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 10px 15px;
+	margin-top: 15px;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: var(--border-radius);
+}
+
+.main-bar .filter-container .hot-container img {
+	width: 28px;
+	height: 28px;
+}
+
+.main-bar .filter-container .filter-element {
+	display: flex;
+	align-items: center;
+	color: var(--primary-color);
+	background-color: var(--light-grey);
+	border-radius: 20px;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.main-bar .filter-container .filter-element:first-child {
+	margin-left: 0px;
+}
+
+.main-bar .filter-container .filter-element-secondary img {
+	width: 28px;
+	height: 28px;
+}
+
+.main-bar .filter-container .filter-element-secondary {
+	display: flex;
+	align-items: center;
+	color: rgb(150, 150, 150);
+	font-weight: 600;
+	padding: 5px 10px;
+	margin: 0px 5px;
+}
+
+.main-bar .filter-container .filter-element-secondary:hover {
+	color: black;
+}
+
+.main-bar .filter-container .filter-element-dots {
+	padding: 5px 10px;
+	margin: 0px 5px;
+}
+
+.main-bar .filter-container .filter-element-dots:hover {
+	background-color: var(--light-grey);
+	border-radius: 20px;
+}
+
+.main-bar .filter-container .filter-element-menu {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+.main-bar .filter-container .filter-element-menu img {
+	width: 28px;
+	height: 28px;
+	padding: 2px 2px;
+}
+
+.main-bar .filter-container .filter-element-menu img:hover {
+	background-color: var(--light-grey);
+	border-radius: 20px;
+}

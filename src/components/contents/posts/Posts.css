@@ -1,0 +1,145 @@
+.posts-wrapper .post {
+	display: flex;
+	background-color: white;
+	border-radius: var(--border-radius);
+	border: 1px solid rgb(200, 200, 200);
+	margin-top: 15px;
+}
+
+.posts-wrapper .post:hover {
+	cursor: pointer;
+}
+
+.posts-wrapper .post .post-sidebar {
+	flex: 0.07;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10px;
+	background-color: var(--light-grey);
+	border-top-left-radius: var(--border-radius);
+	border-bottom-left-radius: var(--border-radius);
+}
+
+.posts-wrapper .post .post-sidebar>img {
+	width: 20px;
+	height: 25px;
+}
+
+.posts-wrapper .post .post-sidebar>img:hover {
+	cursor: pointer;
+	background-color: rgb(230, 230, 230);
+}
+
+.posts-wrapper .post .post-sidebar>span {
+	font-weight: 600;
+	font-size: 14px;
+	padding: 2px 0px;
+}
+
+.posts-wrapper .post .post-main {
+	flex: 0.93;
+}
+
+.posts-wrapper .post .post-main .post-title {
+	display: flex;
+	align-items: center;
+}
+
+.posts-wrapper .post .post-main .post-title>img {
+	min-width: 18px;
+	min-height: 18px;
+	max-width: 18px;
+	max-height: 18px;
+	border-radius: 50%;
+	margin: 0px 5px;
+}
+
+.posts-wrapper .post .post-main .post-title>.subreddit-name {
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.posts-wrapper .post .post-main .post-title>.subreddit-name:hover {
+	text-decoration: underline;
+}
+
+.posts-wrapper .post .post-main .post-title>.post-user {
+	padding-left: 5px;
+	font-size: 12px;
+	color: rgb(150, 150, 150);
+}
+
+.posts-wrapper .post .post-main .post-title>.underline:hover {
+	text-decoration: underline;
+}
+
+.posts-wrapper .post .post-main .post-title>.button {
+	margin: 8px;
+	padding: 4px 8px;
+	font-size: 11px;
+}
+
+.posts-wrapper .post .post-footer {
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	margin-top: 10px;
+
+	color: rgb(100, 100, 100);
+}
+
+.posts-wrapper .post .post-footer .footer-actions .footer-img {
+	min-width: 20px;
+	min-height: 20px;
+	max-width: 20px;
+	max-height: 20px;
+	margin-right: 5px;
+}
+
+.posts-wrapper .post .post-footer .footer-actions .comment-img {
+	margin-left: 0px;
+}
+
+.posts-wrapper .post .post-footer .footer-actions {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+	padding: 2px;
+}
+
+.posts-wrapper .post .post-footer .footer-actions span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.posts-wrapper .post .post-footer .footer-actions:hover {
+	cursor: pointer;
+	background-color: rgb(230, 230, 230);
+	border-radius: 5px;
+}
+
+.posts-wrapper .post .post-footer .more-icon {
+	margin-left: 5px;
+}
+
+.posts-wrapper .post .post-body>.body-title {
+	display: block;
+	margin-left: 8px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.posts-wrapper .post .post-body>img {
+	object-fit: cover;
+	object-position: center;
+
+	max-height: 500px;
+	width: 100%;
+}
+
+.posts-wrapper .post .post-body .body-description {
+	display: block;
+	margin-left: 8px;
+	margin-top: 10px;
+}

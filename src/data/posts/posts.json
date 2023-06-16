@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Giving away the majority of my pets from my inv! Please do not ask to see or have any Inked out pets, they are not going to be given away or traded",
+		"upvotes": 256,
+		"comments": 85,
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "AskReddit"
+		},
+		"username": "Kiki9"
+	},
+	{
+		"title": "Relax, they're not dangerous!",
+		"image_src": "assets/images/relax.jpg",
+		"upvotes": 999,
+		"comments": 55,
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "Memes"
+		},
+		"username": "Mrminisky_"
+	},
+	{
+		"title": "Sharks",
+		"description": "What if we're like sharks and there's is more species of animals out there in space?",
+		"upvotes": 45,
+		"comments": 32,
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "Snacks"
+		},
+		"username": "Triangu"
+	},
+	{
+		"title": "Cat cook!",
+		"video_src": "assets/videos/cat-cook.mp4",
+		"duration": 14,
+		"upvotes": 100,
+		"comments": 12,
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "Memes"
+		},
+		"username": "Mrminisky"
+	},
+	{
+		"title": "Every morning",
+		"image_src": "assets/images/funny-rabbit.jpg",
+		"upvotes": 333,
+		"comments": 67,
+		"subreddit": {
+			"image_src": "assets/images/subreddit.jpg",
+			"name": "VacationDestinations"
+		},
+		"username": "Josh017"
+	}
+]
